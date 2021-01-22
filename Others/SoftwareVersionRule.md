@@ -1,4 +1,4 @@
-#Software Version Rule
+# Software Version Rule
 
 ## Sematic Versioning
 >[참고]
