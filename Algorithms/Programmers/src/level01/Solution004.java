@@ -4,6 +4,7 @@ import java.util.*;
 /**
  * [2019 KAKAO BLIND RECRUITMENT] 실패율
  * https://programmers.co.kr/learn/courses/30/lessons/42889
+ * Sort & Comparator
  *
  * 실패율은 다음과 같이 정의한다.
  * 스테이지에 도달했으나 아직 클리어하지 못한 플레이어의 수 / 스테이지에 도달한 플레이어 수
