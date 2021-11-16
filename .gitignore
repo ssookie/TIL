@@ -30,3 +30,6 @@ rebel.xml
 .gradle
 /build/
 .gradletasknamecache
+
+# Files
+**/challenge/
