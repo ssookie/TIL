@@ -1,4 +1,4 @@
-# MSA에 DDD에 대한 이해
+# MSA와 DDD에 대한 이해
 
 ## 1. 도메인
 
@@ -108,6 +108,7 @@
 
 * 비즈니스 도메인 내에서 일어나는 시나리오를 찾아 Bounded Context를 식별하는 방법론
 * https://happycloud-lee.tistory.com/94
+* https://www.youtube.com/watch?v=QUMERCN3rZs
 * 마이크로 서비스 패턴 Chapter 5에서 비즈니스 로직 설계, Aggregate 등을 다루고 있음.
 
 
