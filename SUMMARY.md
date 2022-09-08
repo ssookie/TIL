@@ -1,4 +1,4 @@
-# Table of contents
+# Today I Learned
 
-* [Page 1](README.md)
-* [MSA와DDD](./Development/DDD/도메인주도설계핵심/MSA와DDD.md)
+* Git
+    * [MSA와DDD](./Others/Git/GitToken발급및사용.md)
