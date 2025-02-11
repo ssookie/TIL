@@ -12,7 +12,12 @@ db.users.find( { "name": "ssookie_" } ).pretty();
 
 ### projection
 * 쿼리의 결과값에서 보여질 field를 지정한다.
-* $elemMatch 연산자를 projection 연산자로 사용하여 
+
+```javascript
+db.articles.find( { } , { "_id": false, "title": 1, "content": true } )
+```
+
+* $elemMatch 연산자를 projection 연산자로 사용하여 // TODO 
 
 ## [count()](https://www.mongodb.com/docs/manual/reference/method/db.collection.count/)
 
@@ -31,6 +36,15 @@ db.getCollection('item').find({}).count();
 ```javascript
 // gtin field 가 비어있는 Document 갯수 조회
 db.getCollection('item').find({ $where: "this.gtin.length == 0" }).count();
+```
+
+### [$in](https://www.mongodb.com/docs/manual/reference/operator/query/in/)
+
+* 주어진 배열 안에 속하는 값을 찾는다.
+
+```javascript
+// writer 값이 배열 ["Alpha", "Bravo"] 안에 속하는 값인 Document 조회
+db.articles.find( { "writer": { $in: [ "Alpha", "Bravo" ] } } ).pretty()
 ```
 
 ### $elemMatch 
